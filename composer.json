@@ -1,0 +1,21 @@
+{
+    "name": "thomaskahn/pdfmaker",
+    "description": "A very simple library to assist with custom PDF creation.",
+    "type": "library",
+    "version":"0.1.0",
+    "require": {
+        "php": ">=5.5.0",
+        "setasign/fpdi-tcpdf": "^1.6"
+    },
+    "authors": [
+        {
+            "name": "Thomas Kahn",
+            "email": "thomaskahn@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "PdfMaker\\":        "src/"
+        }
+    }
+}
